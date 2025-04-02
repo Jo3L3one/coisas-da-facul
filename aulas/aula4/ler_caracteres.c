@@ -15,5 +15,10 @@ int main () {
 
     printf("vc apertou: %c\n", tecla);
 
+    char nome [31];
+    printf("entre com seu nome: ");
+    scanf("%s", nome);
+    printf("vc digitou: %s\n", nome);
+
     return 0;
 }
