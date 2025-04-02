@@ -15,10 +15,18 @@ int main () {
 
     printf("vc apertou: %c\n", tecla);
 
+    //char nome [31];
+    //printf("entre com seu nome: ");
+    //scanf("%s", nome); //esse aq só lê até dar espaço
+
+    //printf("vc digitou: %s\n", nome);
+    
+   
     char nome [31];
     printf("entre com seu nome: ");
-    scanf("%s", nome);
+    scanf("%[^\n]s", nome); //esse aqui lê mesmo com espaço
+    
     printf("vc digitou: %s\n", nome);
-
+   
     return 0;
 }
