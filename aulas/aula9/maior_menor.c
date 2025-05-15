@@ -15,7 +15,7 @@ int main(){
     int numeros[10]; //matriz unidimensional = vetor = array = | | | | | | | | | |
 
     //como acessa cada posição
-    numeros[0] = 5;
+    /*numeros[0] = 5;
     numeros[1] = -1;
     numeros[2] = 10;
     numeros[3] = 6;
@@ -24,7 +24,7 @@ int main(){
     numeros[6] = 7;
     numeros[7] = 11;
     numeros[8] = 2;
-    numeros[9] = 0;
+    numeros[9] = 0;*/
 
     int maior = -9999;
     int menor = 9999;
